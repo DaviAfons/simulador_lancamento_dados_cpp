@@ -1,0 +1,16 @@
+# Executável principal
+simulador_dados
+
+# Ficheiros objeto gerados na raiz (ex: main.o)
+*.o
+
+# Ficheiros objeto gerados dentro do diretório de código-fonte
+src/*.o
+
+# Pasta de build do VS Code / CMake
+/build/
+.vscode/
+
+# Ficheiros temporários e logs
+*.log
+*~
